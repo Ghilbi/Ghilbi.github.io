@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../Portfolio/css/productstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img style="width: 60px; height: 60px;"
+            id="header-img"
+            src="../Portfolio/images/strawberry-svgrepo-com.svg" 
+            alt="Strawberries logo"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Our Products</a></li>
+            <li><a class="nav-link" href="#how-it-works">How It's Made</a></li>
+            <li><a class="nav-link" href="#pricing">Shop</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="hero">
+        <h2 style="color: #e53935; font-size: 80px;">Fresh Strawberries and Homemade Jams</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input style="border-radius: 4px; border-color: lightgrey;"
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Subscribe for updates"
+            required
+          />
+          <input id="submit" type="submit" value="Subscribe" class="btn" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fas fa-seedling fa-3x"></i></div>
+            <div class="desc">
+              <h2>Organic Farming</h2>
+              <p>We use only organic farming practices to grow our strawberries, ensuring the best quality and taste.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><img style="width: 50px; height: 50px;" src="../Portfolio/images/jar-svgrepo-com.svg"></img></div>
+            <div class="desc">
+              <h2>Homemade Jams</h2>
+              <p>Our jams are made from fresh strawberries and natural ingredients, with no artificial flavors.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon" style="margin-left: 8px;"><i class="fas fa-award fa-3x"></i></div>
+            <div class="desc">
+              <h2>Award Winning Quality</h2>
+              <p>Our products have won numerous awards for their exceptional quality and innovative packaging.</p>
+            </div>
+          </div>
+        </section>
+        <section id="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/esncRChLNVc?si=Lh03LRZ0ME4e6v2z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="pricing">
+          <div class="product" id="fresh-strawberries">
+            <div class="level">Fresh Strawberries</div>
+            <h2>₱150 per lb</h2>
+            <ol>
+              <li>Picked fresh from the farm</li>
+              <li>100% Organic</li>
+              <li>Ripe and Ready to Eat</li>
+              <li>Available in bulk</li>
+            </ol>
+            <button class="btn">Buy Now</button>
+          </div>
+          <div class="product" id="strawberry-jam">
+            <div class="level">Strawberry Jam</div>
+            <h2>₱200 per jar</h2>
+            <ol>
+              <li>Made with organic strawberries</li>
+              <li>Sweetened with natural sugars</li>
+              <li>Perfect for breakfast or snacks</li>
+              <li>Preservative-free</li>
+            </ol>
+            <button class="btn">Buy Now</button>
+          </div>
+          <div class="product" id="gift-basket">
+            <div class="level">Gift Basket</div>
+            <h2>₱500 per basket</h2>
+            <ol>
+              <li>Assorted strawberry products</li>
+              <li>Includes fresh and jam options</li>
+              <li>Beautifully packaged</li>
+              <li>Ideal for gifts and special occasions</li>
+            </ol>
+            <button class="btn">Buy Now</button>
+          </div>
+        </section>
+        <footer class="footer">
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2024, Strawberries & Jams</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
